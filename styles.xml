@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.MeNothingPlayer" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#080909</item>
+        <item name="android:navigationBarColor">#080909</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
