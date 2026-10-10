@@ -1,9 +1,12 @@
 <resources>
-    <style name="Theme.MeNothingPlayer" parent="android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.NothingPlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#E53935</item>
+        <item name="colorPrimaryVariant">#B71C1C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
         <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">#090909</item>
+        <item name="android:navigationBarColor">#090909</item>
         <item name="android:windowLightStatusBar">false</item>
-        <item name="android:statusBarColor">#080909</item>
-        <item name="android:navigationBarColor">#080909</item>
-        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#090909</item>
     </style>
 </resources>
